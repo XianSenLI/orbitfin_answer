@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @E-mail: leicunkuan@gmail.com
+# @E-mail: lixu8666@gmail.com
 
 import pandas as pd
 import requests
