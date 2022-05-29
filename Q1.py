@@ -4,6 +4,7 @@
 import pandas as pd
 import requests
 import re
+
 url = 'https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_aladin_banner#tab4'
 r = requests.get(url=url).text
 res = re.findall(',{"confirmed"(.*?)]}', r)
